@@ -1,9 +1,8 @@
-package br.edu.ifpb.ifgram;
+package ifgram.ifpb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 public class IfgramApplication {
 
 	public static void main(String[] args) {

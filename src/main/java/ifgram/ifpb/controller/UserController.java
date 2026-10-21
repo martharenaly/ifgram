@@ -1,4 +1,4 @@
-package br.edu.ifpb.ifgram.Controller;
+package ifgram.ifpb.controller;
 
 import java.util.List;
 
@@ -20,7 +20,7 @@ public class UserController {
 
 
     @GetMapping
-    public List<br.edu.ifpb.ifgram.Controller.UserResponse> getUsers(){
+    public List<UserResponse> getUser(){
         List<UserResponse> listaUsuarios = service.buscarTodosUsuarios();
         return listaUsuarios;
     }
@@ -37,8 +37,8 @@ public class UserController {
     }
 
     @DeleteMapping
-    public String deleteUser(){
-        return "chamei o endpoint como um DELETE!";
+    public void deleteUser(UserRequest request) throws Exception {
+        return service.deletarUsuario(request);
     }
 
 }
