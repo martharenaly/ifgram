@@ -4,7 +4,11 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
 
+<<<<<<< HEAD
 import ifgram.ifpb.repository.UserRepository;
+=======
+import ifgram.ifpb.service.UserService;
+>>>>>>> 1f5fd9f4ba3dc79fd0f453f5cbf5487cefc4eaa3
 import ifgram.ifpb.dto.UserRequest;
 import ifgram.ifpb.dto.UserResponse;
 

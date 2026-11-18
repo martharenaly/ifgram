@@ -8,7 +8,11 @@ import ifgram.ifpb.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+<<<<<<< HEAD
 import ifgram.ifpb.dto.
+=======
+import ifgram.ifpb.dto.UserRequest;
+>>>>>>> 1f5fd9f4ba3dc79fd0f453f5cbf5487cefc4eaa3
 import ifgram.ifpb.dto.UserResponse;
 import ifgram.ifpb.model.User;
 
